@@ -12,6 +12,7 @@ on:
       - my-pages
     paths:
       - _config.yml
+  
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -65,3 +66,4 @@ jobs:
           from_step: 2
           to_step: 3
           branch_name: my-pages
+theme: minima
